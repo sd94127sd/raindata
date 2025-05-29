@@ -10,12 +10,6 @@ const nextConfig: NextConfig = {
     unoptimized: true, // 在容器環境中禁用圖片優化
   },
   
-  // 實驗性功能
-  experimental: {
-    // 啟用 App Router
-    appDir: true,
-  },
-  
   // 環境變量配置
   env: {
     CUSTOM_KEY: process.env.CUSTOM_KEY,
