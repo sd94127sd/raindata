@@ -46,5 +46,5 @@ raindata/
 ├── public/                    # 靜態資源
 ├── Dockerfile                 # Docker 配置
 ├── next.config.ts            # Next.js 配置
-└── package.json              # 專案依賴
+└── package.json              # 專案依賴 
 ```
