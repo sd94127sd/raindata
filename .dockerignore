@@ -1,0 +1,50 @@
+# 依賴
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 構建產物
+.next
+out
+dist
+
+# 環境變量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日誌
+*.log
+
+# 運行時數據
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 覆蓋率目錄
+coverage
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 文檔
+README.md
+*.md 
